@@ -9,7 +9,7 @@ int main() {
     // The address of the array is as same as the first character
     // The pointer is pointing to the first character
     pointer = arr;
-    // Run the program 5 times and get started moving the pointer from the first character        
+    // Run the program 5 times and get started moving the pointer from the first character
     for (int i = 0; i < 6; ++i) {
         printf("Value = %d, address = %p\n", *pointer, pointer);
         pointer = pointer + 1;
