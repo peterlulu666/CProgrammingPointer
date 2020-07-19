@@ -3,4 +3,4 @@ project(CProgrammingPointer C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(CProgrammingPointer test.c)
+add_library(CProgrammingPointer ArrayAddress.c)
